@@ -113,7 +113,7 @@ void saveHistogramImage(const std::vector<int> &histData, const std::string &fil
 int main()
 {
     // Image loading - grayscale
-    cv::Mat image = cv::imread("soru_3_gorsel.png", cv::IMREAD_GRAYSCALE);
+    cv::Mat image = cv::imread("input_image.png", cv::IMREAD_GRAYSCALE);
     if (image.empty()) // make sure image is loaded
     {
         std::cerr << "Error: Could not load image soru_3_gorsel.png" << std::endl;
