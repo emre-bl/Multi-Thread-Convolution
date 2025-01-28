@@ -1,0 +1,4 @@
+- C++17 or later
+- CMake 3.10 or later
+- OpenCV 4.x
+- Threading support (std::thread)
